@@ -26,7 +26,7 @@ public class NotificationManager {
                 notificationService.sendNotification(notification);
                 break;
             default:
-                throw new IllegalArgumentException("Unsupported notification type");
+                throw new IllegalArgumentException(" Test Unsupported notification type");
         }
     }
 
